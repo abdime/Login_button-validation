@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:myapp/src/mixins/validation_mixin.dart';
 // Suggested code may be subject to a license. Learn more: ~LicenseLog:1954747464.
 class LoginScreen extends StatefulWidget {
+  const LoginScreen({super.key});
+
   @override
   createState() {
     return LoginScreenState(); // Creates the state for the screen
